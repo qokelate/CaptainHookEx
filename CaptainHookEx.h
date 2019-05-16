@@ -6,6 +6,14 @@
 #define SuperCHMethod5(return_type, class_type, name1, type1, arg1, name2, type2, arg2, name3, type3, arg3, name4, type4, arg4, name5, type5, arg5) CHSuper5(class_type, name1, arg1, name2, arg2, name3, arg3, name4, arg4, name5, arg5)
 #define SuperCHMethod6(return_type, class_type, name1, type1, arg1, name2, type2, arg2, name3, type3, arg3, name4, type4, arg4, name5, type5, arg5, name6, type6, arg6) CHSuper6(class_type, name1, arg1, name2, arg2, name3, arg3, name4, arg4, name5, arg5, name6, arg6)
 
+#define SuperCHClassMethod0(return_type, class_type, name) CHSuper0(class_type, name)
+#define SuperCHClassMethod1(return_type, class_type, name1, type1, arg1) CHSuper1(class_type, name1, arg1)
+#define SuperCHClassMethod2(return_type, class_type, name1, type1, arg1, name2, type2, arg2) CHSuper2(class_type, name1, arg1, name2, arg2)
+#define SuperCHClassMethod3(return_type, class_type, name1, type1, arg1, name2, type2, arg2, name3, type3, arg3) CHSuper3(class_type, name1, arg1, name2, arg2, name3, arg3)
+#define SuperCHClassMethod4(return_type, class_type, name1, type1, arg1, name2, type2, arg2, name3, type3, arg3, name4, type4, arg4) CHSuper4(class_type, name1, arg1, name2, arg2, name3, arg3, name4, arg4)
+#define SuperCHClassMethod5(return_type, class_type, name1, type1, arg1, name2, type2, arg2, name3, type3, arg3, name4, type4, arg4, name5, type5, arg5) CHSuper5(class_type, name1, arg1, name2, arg2, name3, arg3, name4, arg4, name5, arg5)
+#define SuperCHClassMethod6(return_type, class_type, name1, type1, arg1, name2, type2, arg2, name3, type3, arg3, name4, type4, arg4, name5, type5, arg5, name6, type6, arg6) CHSuper6(class_type, name1, arg1, name2, arg2, name3, arg3, name4, arg4, name5, arg5, name6, arg6)
+
 #define HookCHMethod0(return_type, class_type, name) CHHook0(class_type, name)
 #define HookCHMethod1(return_type, class_type, name1, type1, arg1) CHHook1(class_type, name1)
 #define HookCHMethod2(return_type, class_type, name1, type1, arg1, name2, type2, arg2) CHHook2(class_type, name1, name2)
@@ -21,4 +29,12 @@
 #define ClassHookCHMethod4(return_type, class_type, name1, type1, arg1, name2, type2, arg2, name3, type3, arg3, name4, type4, arg4) CHClassHook4(class_type, name1, name2, name3, name4)
 #define ClassHookCHMethod5(return_type, class_type, name1, type1, arg1, name2, type2, arg2, name3, type3, arg3, name4, type4, arg4, name5, type5, arg5) CHClassHook5(class_type, name1, name2, name3, name4, name5)
 #define ClassHookCHMethod6(return_type, class_type, name1, type1, arg1, name2, type2, arg2, name3, type3, arg3, name4, type4, arg4, name5, type5, arg5, name6, type6, arg6) CHClassHook6(class_type, name1, name2, name3, name4, name5, name6)
+
+#define HookCHClassMethod0(return_type, class_type, name) CHClassHook0(class_type, name)
+#define HookCHClassMethod1(return_type, class_type, name1, type1, arg1) CHClassHook1(class_type, name1)
+#define HookCHClassMethod2(return_type, class_type, name1, type1, arg1, name2, type2, arg2) CHClassHook2(class_type, name1, name2)
+#define HookCHClassMethod3(return_type, class_type, name1, type1, arg1, name2, type2, arg2, name3, type3, arg3) CHClassHook3(class_type, name1, name2, name3)
+#define HookCHClassMethod4(return_type, class_type, name1, type1, arg1, name2, type2, arg2, name3, type3, arg3, name4, type4, arg4) CHClassHook4(class_type, name1, name2, name3, name4)
+#define HookCHClassMethod5(return_type, class_type, name1, type1, arg1, name2, type2, arg2, name3, type3, arg3, name4, type4, arg4, name5, type5, arg5) CHClassHook5(class_type, name1, name2, name3, name4, name5)
+#define HookCHClassMethod6(return_type, class_type, name1, type1, arg1, name2, type2, arg2, name3, type3, arg3, name4, type4, arg4, name5, type5, arg5, name6, type6, arg6) CHClassHook6(class_type, name1, name2, name3, name4, name5, name6)
 
